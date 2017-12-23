@@ -1,66 +1,36 @@
 /*
-	Stellar by HTML5 UP
+	Identity by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Type */
+/* List */
 
-	body {
-		color: #ffffff;
+	ul.icons li a {
+		-ms-behavior: url("assets/js/PIE.htc");
 	}
 
-/* Button */
-
-	.button {
-		position: relative;
-		border: solid 1px !important;
-	}
-
-		.button.special {
-			border: none !important;
+		ul.icons li a:before {
+			text-align: center;
+			font-size: 26px;
 		}
-
-/* Icon */
-
-	.icon.major {
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-		.icon.major:before {
-			font-size: 4em;
-			border: 0;
-		}
-
-/* Spotlight */
-
-	.spotlight .image {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-		.spotlight .image img {
-			position: relative;
-			-ms-behavior: url("assets/js/ie/PIE.htc");
-		}
-
-/* Features */
-
-	.features li {
-		width: 29%;
-	}
-
-/* Footer */
-
-	#footer > * {
-		width: 50%;
-		margin-left: 0;
-	}
 
 /* Main */
 
-	#main > .main > .image.main:first-child {
-		margin-top: 0;
-		margin-left: 0;
-		width: 100%;
+	#main {
+		-ms-behavior: url("assets/js/PIE.htc");
 	}
+
+		#main .avatar img {
+			-ms-behavior: url("assets/js/PIE.htc");
+		}
+
+/* Footer */
+
+	#footer {
+		color: #fff;
+	}
+
+		#footer .copyright li {
+			border-left: solid 1px #fff;
+		}
